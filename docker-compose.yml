@@ -1,9 +1,9 @@
 version: "3.9"
 
 services:
-  demo-api:
-    container_name: demo-api
-    image: demo/api
+  demo-go-api:
+    container_name: demo-go-api
+    image: demo/go-api
     build:
       context: .
       dockerfile: dev.Dockerfile

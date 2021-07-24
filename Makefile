@@ -20,7 +20,7 @@ logs:
 
 sh:
 	@echo "[Makefile] shell into service 🐚"
-	docker exec -it demo-api /bin/sh
+	docker exec -it demo-go-api /bin/sh
 
 down:
 	@echo "[Makefile] down service 💤"
