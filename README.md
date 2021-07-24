@@ -2,6 +2,13 @@
 
 To get Go service started quickly.
 
+- Docker (Multi-stage build)
+- Docker Compose
+- ENV
+- Gin
+- reflect (Hot Reload)
+- WIP: syslog
+
 ## Usage
 
 ```bash
