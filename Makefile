@@ -31,6 +31,6 @@ test:
 	go test -v -cover ./..
 
 clean: down
-	@echo "[Makefile] cleaning up"
+	@echo "[Makefile] down service & cleaning up 🧹"
 	docker system prune -f
 	docker volume prune -f
